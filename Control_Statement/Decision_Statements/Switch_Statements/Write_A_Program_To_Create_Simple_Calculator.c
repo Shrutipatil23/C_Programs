@@ -33,6 +33,6 @@ int main()
                 break;
 
     }
-    printf("\n RESULT = \n%d %c %d = %f ",num1,operator,num2,result);
+    printf("\n RESULT = \n%d %c %d = %0.2f ",num1,operator,num2,result);
     return 0;
 }
