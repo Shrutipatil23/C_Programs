@@ -19,7 +19,7 @@ int main()
     printf("\nADDITION OF %d & %d      = %d",num1,num2,add);
     printf("\nSUBSTRACTION OF %d & %d  = %d",num1,num2,sub);
     printf("\nPRODUCT OF %d & %d       = %d",num1,num2,prod);
-    printf("\nDIVISION OF %d & %d      = %f",num1,num2,div);
+    printf("\nDIVISION OF %d & %d      = %0.2f",num1,num2,div);
     printf("\nREMAINDER OF %d & %d     = %f",num1,num2,rem);  
     printf("\n\n--------------------THANK YOU--------------------\n\n");
 
