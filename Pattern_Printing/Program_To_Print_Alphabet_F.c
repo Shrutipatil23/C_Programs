@@ -15,7 +15,7 @@ int main()
         printf("\n\t\t\t");
         for(c=1;c<=Ccnt;c++)
         {
-            if(c==1 || c==Ccnt || r==1 || r==(Rcnt + 1)/2)
+            if(c==1 || r==1 || r==(Rcnt + 1)/2)
             {
                 printf(" * ");
             }
@@ -30,4 +30,3 @@ int main()
     getch();
     return 0;
 }
-

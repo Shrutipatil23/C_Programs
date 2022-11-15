@@ -10,6 +10,7 @@ int main()
     scanf("%d",&Ccnt);
 
     printf("\nSQUARE PATTERN IS AS FOLLOWS :\n ");
+    
     for(r=1 ; r<= Rcnt ; r++)
     {
         printf("\t\t\t");
