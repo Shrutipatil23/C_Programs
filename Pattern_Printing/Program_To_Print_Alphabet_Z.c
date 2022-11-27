@@ -7,13 +7,13 @@ int main()
     printf("\nENTER ROW AND COLUMN COUNT : ");
     scanf("%d",&Cnt);
  
-    printf("\nPATTERN FOR X IS AS FOLLOWS : ");
+    printf("\nPATTERN FOR Z IS AS FOLLOWS : ");
     for(r=1;r<=Cnt;r++)
     {
         printf("\n\t\t\t");
         for(c=1;c<=Cnt;c++)
         {
-            if(r==c || r+c==Cnt+1)
+            if(r==1 || (r+c==Cnt+1) || r==Cnt)
             {
                 printf(" * ");
             }
