@@ -10,7 +10,7 @@ int main()
 
     for(i=0 ; i < n ;i++)
     {
-        printf("\nELEMENT NUMBER %d = ",i+1);
+        printf("\nMARK OF ELEMENT NUMBER %d = ",i+1);
         scanf("%d",&marks[i]);
 
         sum += marks[i];
